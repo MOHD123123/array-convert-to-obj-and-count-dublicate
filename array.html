@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // let b =[90,80,45,67,57,57,90,80,];
+        // let c={}
+        // b.forEach(element => {
+        //  debugger
+        //   c[element]=(c[element]||0)+1
+        //   console.log(c[element])
+            
+        // });
+        // console.log(c)
+         let arr=[1,1,5,68,6,6,3,2,1,1,5,6,7,8,]
+         let getobj= arr.reduce((x,y)=>{
+            debugger
+            if(x[y]){
+                x[y]+=1
+            }else{
+                x[y]=1
+            }
+            return x
+         },{})
+         console.log(getobj)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
